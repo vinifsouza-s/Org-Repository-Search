@@ -1,6 +1,6 @@
 import './App.css';
 import Search from './components/Header/Search';
-import RepositoryInfo from './components/RepositoryInfo/RepositoryInfo';
+
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Repository Search</h1>
      <Search/>
-     <RepositoryInfo/>
+     
     </div>
   );
 }
