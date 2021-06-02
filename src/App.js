@@ -1,10 +1,14 @@
 import './App.css';
-import { Header } from './components/Header/Header';
+import Search from './components/Header/Search';
+import RepositoryInfo from './components/RepositoryInfo/RepositoryInfo';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <h1>Repository Search</h1>
+     <Search/>
+     <RepositoryInfo/>
     </div>
   );
 }
